@@ -1,0 +1,26 @@
+{
+  "name": "knife",
+  "version": "1.0.0",
+  "description": "Its a test application for login.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-r-p/cosmos.git"
+  },
+  "keywords": [
+    "login",
+    "knife"
+  ],
+  "author": "j-r-p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-r-p/cosmos/issues"
+  },
+  "homepage": "https://github.com/j-r-p/cosmos#readme",
+  "dependencies": {
+    "angular-material": "^1.1.4"
+  }
+}
