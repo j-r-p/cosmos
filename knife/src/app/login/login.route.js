@@ -3,7 +3,7 @@
 module.exports = function($stateProvider) {
 	$stateProvider.state('login',{
 		url : '/login',
-		templateUrl : '<h1>Hello World!!!!<h1>',
+		templateUrl : 'login/login.tmp.html',
 		controller : 'LgnLandingCtrl',
 		controllerAs : 'lgnLandingCtrl'
 	});

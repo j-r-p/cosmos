@@ -8,7 +8,7 @@ gulp.task('browserify', function() {
 
   var b = browserify({
     basedir: '.',
-    entries: 'app.js',
+    entries: 'index.js',
     debug: true,
     insertGlobals: true
   });
@@ -24,6 +24,6 @@ gulp.task('browserify', function() {
   b.bundle()
     .pipe(source('app.js'))
     .pipe(streamify(rename({suffix: '.min'})))
-    .pipe(gulp.dest('dist'));
+    .pipe(gulp.dest('.'));
 
 });

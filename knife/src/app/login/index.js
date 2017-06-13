@@ -1,5 +1,5 @@
 'use strict';
-var loginModule = require('knife').module('knife.login',[]);
+var loginModule = angular.module('knife.login',[]);
 
 loginModule.config(require('./login.route'));
 loginModule.controller('LgnLandingCtrl', require('./lgnLanding.ctrl'));

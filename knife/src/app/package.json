@@ -2,7 +2,7 @@
   "name": "knife",
   "version": "1.0.0",
   "description": "Its a test application for login.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
