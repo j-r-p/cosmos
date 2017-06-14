@@ -4,7 +4,7 @@ var source = require('vinyl-source-stream');
 var streamify = require('gulp-streamify');
 var rename = require("gulp-rename");
 
-gulp.task('browserify', function() {
+gulp.task('build', function() {
 
   var b = browserify({
     basedir: '.',
