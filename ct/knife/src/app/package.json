@@ -1,0 +1,35 @@
+{
+  "name": "knife",
+  "version": "1.0.0",
+  "description": "Its a test application for login.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/j-r-p/cosmos.git"
+  },
+  "keywords": [
+    "login",
+    "knife"
+  ],
+  "author": "j-r-p",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/j-r-p/cosmos/issues"
+  },
+  "homepage": "https://github.com/j-r-p/cosmos#readme",
+  "dependencies": {
+    "@uirouter/angularjs": "^1.0.4",
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4",
+    "angular-aria": "^1.6.4",
+    "angular-material": "^1.1.4",
+    "browserify": "^14.4.0",
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-streamify": "^1.0.2",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}

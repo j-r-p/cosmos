@@ -1,0 +1,36 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.4.RELEASE'
+    id "com.moowork.gulp" version "1.1.1"
+}
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8 
+targetCompatibility = 1.8
+
+jar {     
+	baseName = 'magnum'     
+	version =  '0.1.0' 
+	}
+
+
+dependencies {     
+     
+compile("org.springframework.boot:spring-boot-starter-web") 
+{         
+exclude module: "spring-boot-starter-tomcat"     
+}     
+compile("org.springframework.boot:spring-boot-starter-jetty")     
+     
+compile("org.springframework.boot:spring-boot-starter-actuator")     
+     
+testCompile("junit:junit") 
+}
+
+repositories {     
+mavenCentral() 
+}
+
+
+
+	
