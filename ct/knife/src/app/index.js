@@ -4,6 +4,7 @@ require('angular');
 require('@uirouter/angularjs');
 //require('angular-material');
 require('./login');
+var templateCache = require('gulp-angular-templatecache');
 var requires = [
                 'ui.router',
                 //'angular-material',

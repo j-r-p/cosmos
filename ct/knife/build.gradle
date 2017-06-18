@@ -1,6 +1,7 @@
 plugins {
   id "com.moowork.gulp" version "1.1.1"
 }
+
 node {
   nodeModulesDir = file("src/app")
 }
@@ -14,20 +15,13 @@ gulp {
   // Whether output from Gulp should be buffered - useful when running tasks in parallel
   bufferOutput = false
 }
-task copyJs(type: Copy) {
-    from('src/app/'){
-     include '**/*.*'
-   }
-    
-    into project(':magnum').file('src')
-}
+
 // makes sure on each build that gulp is installed
 gulp_build.dependsOn 'installGulp'
 
 // processes your package.json before running gulp build
 gulp_build.dependsOn 'npmInstall'
 
-copyJs.dependsOn gulp_build
 
 
 
