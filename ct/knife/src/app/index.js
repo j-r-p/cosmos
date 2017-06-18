@@ -2,12 +2,15 @@
 'use strict';
 require('angular');
 require('@uirouter/angularjs');
+var templateCache = require('gulp-angular-templatecache'); 
 //require('angular-material');
 require('./login');
-var templateCache = require('gulp-angular-templatecache');
+require('gulp-angular-templatecache');
+angular.module('templates', []);
 var requires = [
                 'ui.router',
                 //'angular-material',
+                'templates',
                 'knife.login'
                 ];
 var knife = angular.module('knife', requires);
