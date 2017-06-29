@@ -1,5 +1,5 @@
 
-
+ apply plugin: 'java'
 task copyDocs(type: Copy,dependsOn: ':knife:gulp_build') {
 description 'Copies the public directory to the target public.'
 
@@ -13,7 +13,8 @@ description 'Copies the public directory to the target public.'
  description 'Just to start build process '
 
  }
-
  
+ //copyDocs.dependsOn ':streem:build'
  buildMe.dependsOn  copyDocs
+ //run.dependsOn buildMe
 

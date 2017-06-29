@@ -17,4 +17,5 @@ include 'services:webservice'
 rootProject.name = 'ct'
 include 'knife'
 include 'magnum'
+include 'streem'
 

@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("org.cs.mag.controller.hello")
+@ComponentScan("org.cs")
 public class CourseApiApp{
 
 	public static void main(String[] args) {
