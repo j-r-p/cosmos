@@ -1,0 +1,1 @@
+angular.module('templates').run(['$templateCache', function($templateCache) {$templateCache.put('login/login.tmp.html','<h1>Hello World!!!</h1>');}]);
