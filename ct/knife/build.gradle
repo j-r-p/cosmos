@@ -23,6 +23,7 @@ gulp_build.dependsOn 'installGulp'
 gulp_build.dependsOn 'npmInstall'
 
 //Comment
+//Comment2
 
 
 
